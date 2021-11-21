@@ -792,6 +792,7 @@ function calScore(){
 function submitfinal(){
     clearInterval(timefunction);
     navbtn.innerHTML="";
+    document.getElementById("clrreview").innerHTML="";
     storeAndColor();
     examhead.innerHTML=`Marks Scored: ${calScore()}`;
     section_name.innerHTML="";
