@@ -1,0 +1,50 @@
+.height{
+    height:100vh;
+}
+body{
+    overflow: hidden;
+    position:relative;
+}
+.hmax{
+    max-height: 25vh;
+}
+.hfit{
+    height:fit-content!important;
+}
+.wfit{
+    width:fit-content!important;
+}
+.hmax1{
+    max-height:60vh;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+#myModal{
+    max-width: 290px!important;
+    max-height: 450px!important;
+    position: absolute!important;
+    left:20%;
+    top:10%;
+}
+.bg-purple{
+    background-color: blueviolet;
+}
+.small-div{
+    height:12px;
+    width:12px;
+    display: inline-block;
+}
+.fnt{
+    font-size: 12px;
+}
+#modalEndSection,#modalsubmit{
+    position: absolute!important;
+    top:30%;
+}
+.padding{
+    padding: 6px!important;
+}
+.cp{
+    cursor: pointer;
+}
